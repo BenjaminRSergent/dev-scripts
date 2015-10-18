@@ -27,7 +27,6 @@ sudo apt-get -y install gource
 sudo apt-get -y install libglfw-dev
 sudo apt-get -y install libglew-dev
 sudo apt-get -y install libopencv-dev
-sudo apt-get -y install nvidia-opencl-dev
 sudo apt-get -y install binutils-gold
 sudo apt-get -y install freeglut3 freeglut3-dev
 sudo sh install_glfw.sh
