@@ -30,6 +30,7 @@ sudo apt-get -y install libopencv-dev
 sudo apt-get -y install binutils-gold
 sudo apt-get -y install freeglut3 freeglut3-dev
 sudo apt-get -y install libassimp-dev
+sudo apt-get -y install opencl-headers
 sudo sh install_glfw.sh
 sudo sh install_png16.sh
 
