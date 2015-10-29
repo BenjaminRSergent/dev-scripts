@@ -1,0 +1,13 @@
+#export CC=/usr/bin/clang-3.5
+#export CXX=/usr/bin/clang++-3.5
+
+export PATH=$PATH:~/scripts
+
+alias please='sudo $(history -p \!\!)'
+
+function aliasl() {
+    LAST=$(history -p \!\!)
+    alias $1=$LAST;
+}
+
+PS1="\[\033[0;32m\]\! \[\033[0;36m\]\t \[\033[1;32m\]\u:\w\\[\033[1;37m\]$ "

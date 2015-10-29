@@ -25,6 +25,7 @@ sudo apt-get -y install gource
 
 #Graphics and CV
 sudo apt-get -y install libglfw-dev
+sudo apt-get -y install qtdeclarative5-dev
 sudo apt-get -y install libglew-dev
 sudo apt-get -y install libopencv-dev
 sudo apt-get -y install binutils-gold
