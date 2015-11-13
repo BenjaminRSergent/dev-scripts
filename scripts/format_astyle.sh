@@ -1,0 +1,9 @@
+#Formats all c and cpp source files at or below the current directory
+#Installs astyle if it is not currently installed.
+
+if !(which astyle >/dev/null); then
+    sudo apt-get install astyle
+fi
+
+astyle -n -A2 `find . -name "*.[hc]pp"`
+astyle -n -A2 `find . -name "*.[hc]"`
