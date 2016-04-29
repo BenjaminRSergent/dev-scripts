@@ -15,8 +15,8 @@ sudo apt-get -y install nautilus-open-terminal
 sudo apt-get -y install build-essential
 sudo apt-get -y install software-properties-common
 sudo apt-get -y install gcc g++ cpp
-sudo apt-get -y install clang-3.5
-sudo apt-get -y install clang++-3.5
+sudo apt-get -y install clang
+sudo apt-get -y install clang++
 sudo apt-get -y install cmake cmake-gui
 
 #Dev Other 
