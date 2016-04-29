@@ -23,24 +23,21 @@ sudo apt-get -y install gcc g++ cpp
 sudo apt-get -y install clang
 sudo apt-get -y install clang++
 sudo apt-get -y install cmake cmake-gui
-
-#Dev Other 
-sudo apt-get -y install liblog4cxx10 liblog4cxx10-dev
-sudo apt-get -y install libgoogle-glog-dev
-sudo apt-get -y install gource
-
 sudo apt-get -y install libc++1
 sudo apt-get -y install multiarch-support
 sudo apt-get -y install libc6
 sudo apt-get -y install libc++-helpers
 sudo apt-get -y install libc++abi1
-sudo apt-get -y install cpp
 sudo apt-get -y install libtbb2
-sudo apt-get -y install zlib1g
 sudo apt-get -y install libiomp5
-sudo apt-get -y install libusb-1.0-0
-sudo apt-get -y install cpp
 sudo apt-get -y install libc++-helpers
+
+#Dev Other 
+sudo apt-get -y install liblog4cxx10 liblog4cxx10-dev
+sudo apt-get -y install libgoogle-glog-dev
+sudo apt-get -y install gource
+sudo apt-get -y install zlib1g
+sudo apt-get -y install libusb-1.0-0
 
 #Graphics and CV
 sudo apt-get -y install libglfw-dev
