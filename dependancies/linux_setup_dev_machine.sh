@@ -20,8 +20,7 @@ sudo apt-get -y install nautilus-open-terminal
 sudo apt-get -y install build-essential
 sudo apt-get -y install software-properties-common
 sudo apt-get -y install gcc g++ cpp
-sudo apt-get -y install clang
-sudo apt-get -y install clang++
+sudo apt-get -y install clang clang++ libclang1-3.8 libllvm3.8 lldb-3.8 llvm-3.8 llvm-3.8-runtime 
 sudo apt-get -y install cmake cmake-gui
 sudo apt-get -y install libc++1
 sudo apt-get -y install multiarch-support
