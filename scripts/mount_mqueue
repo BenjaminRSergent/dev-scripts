@@ -1,0 +1,6 @@
+if [ ! -d /dev/mqueue/ ]
+    then
+    sudo mkdir /dev/mqueue
+    sudo mount -t mqueue none /dev/mqueue 
+fi
+
