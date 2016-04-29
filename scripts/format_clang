@@ -1,0 +1,10 @@
+if [ "$#" -ne 1 ]; then
+    echo "Usage: format_clang directory"
+fi
+
+if !(which clang-format-3.7 >/dev/null); then
+    sudo apt-get install clang-format-3.7
+fi
+
+clang-format-3.7 -style=file -i `find $1 -name "*.[hc]pp"`
+clang-format-3.7 -style=file -i `find $1 -name "*.[hc]"`
