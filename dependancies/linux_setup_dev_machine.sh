@@ -30,6 +30,7 @@ sudo apt-get -y install libc++abi1
 sudo apt-get -y install libtbb2
 sudo apt-get -y install libiomp5
 sudo apt-get -y install libc++-helpers
+sudo apt-get -y install openssh-server 
 
 #Dev Other 
 sudo apt-get -y install liblog4cxx10 liblog4cxx10-dev
@@ -49,7 +50,6 @@ sudo apt-get -y install freeglut3 freeglut3-dev
 sudo apt-get -y install libassimp-dev
 sudo apt-get -y install opencl-headers
 sudo apt-get -y install libpng12-dev
-sudo sh install_glfw.sh
 
 #Python libs
 sudo apt-get install python-pip
