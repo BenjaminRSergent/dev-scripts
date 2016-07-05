@@ -39,7 +39,7 @@ sudo apt-get -y install zlib1g
 sudo apt-get -y install libusb-1.0-0
 
 #Graphics and CV
-sudo apt-get -y install libglfw-dev
+sudo apt-get -y install libglfw3-dev
 sudo apt-get -y install libglm-dev
 sudo apt-get -y install qtdeclarative5-dev
 sudo apt-get -y install libglew-dev
@@ -50,6 +50,12 @@ sudo apt-get -y install libassimp-dev
 sudo apt-get -y install opencl-headers
 sudo apt-get -y install libpng12-dev
 sudo sh install_glfw.sh
+
+#Python libs
+sudo apt-get install python-pip
+sudo apt-get install python-pygraph python-pygraphviz
+sudo apt-get install python-matplotlib
+
 
 #IDEs and Text Editors
 sudo apt-get -y install netbeans
