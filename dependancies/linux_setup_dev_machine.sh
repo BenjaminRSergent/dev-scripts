@@ -53,9 +53,13 @@ sudo apt-get -y install libpng12-dev
 
 #Python libs
 sudo apt-get install python-pip
-sudo apt-get install python-pygraph python-pygraphviz
+sudo apt-get install python-numpy
+sudo apt-get install python-scipy
+sudo apt-get install python-pandas
 sudo apt-get install python-matplotlib
-
+sudo apt-get install python-pygraph 
+sudo apt-get install python-pygraphviz
+sudo apt-get install python-pygame
 
 #IDEs and Text Editors
 sudo apt-get -y install netbeans
