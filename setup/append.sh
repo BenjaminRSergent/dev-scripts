@@ -1,1 +1,1 @@
-cat ~/.bashrc bashrc_additions > ~/.bashrc
+cat bashrc_additions >> ~/.bashrc

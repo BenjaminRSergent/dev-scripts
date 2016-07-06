@@ -1,2 +1,2 @@
-mkdir ~/scripts > /dev/null
+mkdir -p ~/scripts > /dev/null
 cp */* ~/scripts/
