@@ -1,1 +1,5 @@
+if [ "$#" -ne 1 ]; then
+    echo "Usage: search_source files"
+fi
+
 grep --color=auto -r --include *.[hc]*[^~] $1

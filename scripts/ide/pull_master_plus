@@ -1,0 +1,11 @@
+if [ "$#" -ne 1 ]; then
+    echo "Usage: pull_master_plus remote_branch_name"
+fi
+
+TARGET_REMOTE_BRANCH=$1
+TMP_BRANCH=tmp_$TARGET_REMOTE_BRANCH
+git checkout -b $TMP_BRANCH
+git branch -D TARGET_REMOTE_BRANCH >> /dev/null
+git checkout origin/$TARGET_REMOTE_BRANCH
+git checkout -b $TARGET_REMOTE_BRANCH
+git checkout -D $TMP_BRANCH

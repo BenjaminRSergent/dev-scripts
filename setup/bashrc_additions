@@ -11,3 +11,9 @@ function aliasl() {
 }
 
 PS1="\[\033[0;32m\]\! \[\033[0;36m\]\t \[\033[1;32m\]\u:\w\\[\033[1;37m\]$ "
+_git_match_remote_destructive() {
+    # Actual code goes here
+
+    # And we'll make bash not use its default filename completion
+    __gitcomp_nl "$(__git_refs)"
+}
