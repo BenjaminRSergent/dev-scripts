@@ -1,3 +1,4 @@
+#!/bin/bash 
 #Formats all c and cpp source files at or below the current directory
 #Installs astyle if it is not currently installed.
 
