@@ -38,6 +38,7 @@ sudo apt-get -y install libgoogle-glog-dev
 sudo apt-get -y install gource
 sudo apt-get -y install zlib1g
 sudo apt-get -y install libusb-1.0-0
+sudo apt-get -y install lm-sensors
 
 #Graphics and CV
 sudo apt-get -y install libglfw3-dev
