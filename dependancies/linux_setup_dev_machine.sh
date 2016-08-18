@@ -39,6 +39,7 @@ sudo apt-get -y install gource
 sudo apt-get -y install zlib1g
 sudo apt-get -y install libusb-1.0-0
 sudo apt-get -y install lm-sensors
+sudo apt-get -y install rapidjson-dev
 
 #Graphics and CV
 sudo apt-get -y install libglfw3-dev
@@ -51,6 +52,9 @@ sudo apt-get -y install freeglut3 freeglut3-dev
 sudo apt-get -y install libassimp-dev
 sudo apt-get -y install opencl-headers
 sudo apt-get -y install libpng12-dev
+sudo apt-get -y install libavcodec-dev 
+sudo apt-get -y install libavformat-dev 
+sudo apt-get -y install libswscale-dev
 
 #Python libs
 sudo apt-get -y install python-pip
