@@ -2,6 +2,7 @@
 import sys
 import matplotlib.pyplot as plt
 import numpy as np
+from cycler import cycler
 from itertools import islice
 
 
@@ -30,8 +31,7 @@ datax = data[columnx::columnsperrow]
 datay = data[columny::columnsperrow]
 
 frames = np.arange(len(datalines))
-
-plt.gca().set_color_cycle(['red', 'green', 'blue', 'yellow'])
+plt.gca().set_prop_cycle(cycler('color', ['red', 'green', 'blue', 'yellow']))
 
 plt.plot(frames, datax, label=legandx)
 plt.plot(frames, datay, label=legandy)
