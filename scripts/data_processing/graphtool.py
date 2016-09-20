@@ -50,30 +50,29 @@ class GraphInfo:
             self.graph2dplot(data)
 
     def graph1dplot(self, data, numlines):
-        self.setupgraph()
         frames = np.arange(numlines)
         for plot in self.columnlines:
             index = int(plot[0])
-            legand = plot[1]
+            legend = plot[1]
             plotdata = data[index::self.columnsperrow]
-            plt.plot(frames, plotdata, label=legand)
+            plt.plot(frames, plotdata, label=legend)
 
+        self.setupgraph()
         plt.show()
 
     def graph2dplot(self, data):
-        self.setupgraph()
-
         xdata = None
         for plot in self.columnlines:
             index = int(plot[0])
-            legand = plot[1]
+            legend = plot[1]
             plotdata = data[index::self.columnsperrow]
 
             if xdata == None:
                 xdata = plotdata
             else:
-                plt.plot(xdata, plotdata, label=legand)
+                plt.plot(xdata, plotdata, label=legend)
 
+        self.setupgraph()
         plt.show()
 
     def string2graphtype(self, string):
