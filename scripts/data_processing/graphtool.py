@@ -9,12 +9,12 @@ from enum import Enum
 '''
 Config file format
 
-GraphType[single|multi]
+GraphType[1D|2D]
 title
 columns per row
 x axis label
 y axis label
-columnindexA
+columnindexA (This is the x-axis in 2D graphs)
 columnnameA
 columnindexB
 columnnameB
