@@ -6,3 +6,4 @@ cd ../scripts
 
 cd ../setup/
 ./append.sh
+./customize_sublime.sh
