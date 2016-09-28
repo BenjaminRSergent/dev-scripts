@@ -13,7 +13,7 @@ sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 
 #Get list and update
 sudo apt -y update
-sudo apt -y upgrade
+#sudo apt -y upgrade
 
 #dev tools
 sudo apt -y install nautilus-open-terminal
@@ -67,15 +67,15 @@ sudo apt -y install python-pygraphviz
 sudo apt -y install python-pygame
 
 #IDEs and Text Editors
-sudo apt -y install netbeans
-sudo apt -y install pycharm
+#sudo apt -y install netbeans
+#sudo apt -y install pycharm
 sudo apt -y install sublime-text-installer
 
 #Media Editing
-sudo apt -y install handbrake
-sudo apt -y install gimp gimp-data gimp-plugin-registry gimp-data-extras
-sudo apt -y install audacity
+#sudo apt -y install handbrake
+#sudo apt -y install gimp gimp-data gimp-plugin-registry gimp-data-extras
+#sudo apt -y install audacity
 
 #Entertainment
-sudo apt -y install steam
-sudo apt -y install vlc browser-plugin-vlc
+#sudo apt -y install steam
+#sudo apt -y install vlc browser-plugin-vlc
