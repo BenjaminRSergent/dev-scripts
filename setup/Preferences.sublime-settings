@@ -1,7 +1,6 @@
 {
     "font_size": 9,
     "line_padding_bottom": 1,
-    "auto_complete_commit_on_tab": true,
     "draw_minimap_border": true,
     "line_padding_top": 1,
     "scroll_past_end": true,
