@@ -33,6 +33,8 @@ sudo apt -y install libc++-helpers
 sudo apt -y install openssh-server 
 
 #Dev Other 
+sudo apt -y install valgrind
+sudo apt -y install massif-visualizer
 sudo apt -y install liblog4cxx10 liblog4cxx10-dev
 sudo apt -y install libgoogle-glog-dev
 sudo apt -y install gource

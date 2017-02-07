@@ -17,3 +17,5 @@ _git_match_remote_destructive() {
     # And we'll make bash not use its default filename completion
     __gitcomp_nl "$(__git_refs)"
 }
+
+stty -ixon
