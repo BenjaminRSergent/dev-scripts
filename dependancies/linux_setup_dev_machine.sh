@@ -74,7 +74,7 @@ sudo apt -y install python-pygame
 
 #The commented packages are for personal machines
 #IDEs and Text Editors
-sudo apt -y install pycharm
+sudo apt -y install pycharm-community
 sudo apt -y install sublime-text-installer
 #sudo apt -y install netbeans
 
