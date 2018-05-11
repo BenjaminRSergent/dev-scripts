@@ -3,10 +3,8 @@
 #Repositories
 sudo apt -y autoclean
 
-sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-sudo add-apt-repository -y ppa:george-edison55/cmake-3.x
-sudo add-apt-repository -y ppa:mystic-mirage/pycharm
-sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 
 #Get list and update
 sudo apt -y update
@@ -69,8 +67,8 @@ sudo apt -y install python-pygame
 
 #The commented packages are for personal machines
 #IDEs and Text Editors
-sudo apt -y install pycharm-community
-sudo apt -y install sublime-text-installer
+sudo snap install pycharm-community --classic
+sudo apt -y install sublime-text
 sudo apt -y install netbeans
 
 #Media Editing
