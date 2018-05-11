@@ -2,9 +2,6 @@
 
 #Repositories
 sudo apt -y autoclean
-sudo wget -O - http://llvm.org/apt/llvm-snapshot.gpg.key|sudo apt-key add -
-DIST=`lsb_release -c | cut -f2`
-sudo apt-add-repository -y "deb http://llvm.org/apt/$DIST/ llvm-toolchain-$DIST main"
 
 sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 sudo add-apt-repository -y ppa:george-edison55/cmake-3.x
@@ -13,14 +10,13 @@ sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 
 #Get list and update
 sudo apt -y update
-#sudo apt -y upgrade
+sudo apt -y upgrade
 
 #dev tools
-sudo apt -y install nautilus-open-terminal
 sudo apt -y install build-essential
 sudo apt -y install software-properties-common
 sudo apt -y install gcc g++ cpp
-sudo apt -y install clang clang-3.8 libclang1-3.8 libllvm3.8 lldb-3.8 llvm-3.8 llvm-3.8-runtime
+sudo apt -y install clang
 sudo apt -y install cmake cmake-gui
 sudo apt -y install libc++1
 sudo apt -y install multiarch-support
@@ -45,7 +41,6 @@ sudo apt -y install zlib1g
 sudo apt -y install libusb-1.0-0
 sudo apt -y install lm-sensors
 sudo apt -y install rapidjson-dev
-
 
 #Graphics and CV
 sudo apt -y install libglfw3-dev
@@ -76,7 +71,7 @@ sudo apt -y install python-pygame
 #IDEs and Text Editors
 sudo apt -y install pycharm-community
 sudo apt -y install sublime-text-installer
-#sudo apt -y install netbeans
+sudo apt -y install netbeans
 
 #Media Editing
 #sudo apt -y install handbrake
