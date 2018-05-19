@@ -39,6 +39,7 @@ sudo apt -y install zlib1g
 sudo apt -y install libusb-1.0-0
 sudo apt -y install lm-sensors
 sudo apt -y install rapidjson-dev
+sudo apt -y install indicator-multiload
 
 #Graphics and CV
 sudo apt -y install libglfw3-dev
